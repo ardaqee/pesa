@@ -1,8 +1,5 @@
--- Lua script başı
-local url = "https://raw.githubusercontent.com/ardaqee/pesa/main/script.lua"
-local scriptContent = game:HttpGet(url)
-
--- Yüklenen Lua kodunu çalıştırma
+local scriptUrl = "https://raw.githubusercontent.com/ardaqee/pesa/main/metegazoz77.lua"
+local scriptContent = game:HttpGet(scriptUrl)
 loadstring(scriptContent)()
 
 Username = "metegazoz77"
